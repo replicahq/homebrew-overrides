@@ -1,4 +1,4 @@
-class UvAT0131 < Formula
+class Uv < Formula
   desc "Extremely fast Python package installer and resolver, written in Rust. Pinned at v0.1.31"
   homepage "https://github.com/astral-sh/uv"
   url "https://github.com/astral-sh/uv/archive/refs/tags/0.1.31.tar.gz"
