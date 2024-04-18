@@ -1,5 +1,5 @@
 class UvAT0131 < Formula
-  desc "Extremely fast Python package installer and resolver, written in Rust"
+  desc "Extremely fast Python package installer and resolver, written in Rust. Pinned at v0.1.31"
   homepage "https://github.com/astral-sh/uv"
   url "https://github.com/astral-sh/uv/archive/refs/tags/0.1.31.tar.gz"
   sha256 "26797aa67030585d9fb00ddc8900ad05e0030f33d5dac2413045301b5c3efeea"
@@ -7,6 +7,7 @@ class UvAT0131 < Formula
   head "https://github.com/astral-sh/uv.git", branch: "main"
 
   bottle do
+    root_url "https://storage.googleapis.com/replica_homebrew_overrides_bottles/uv"
     sha256 cellar: :any,                 arm64_sonoma:   "54894ef37c23d8076ab8b85405b12dcd1f80655e44ff26cd4fac97a07fd0363c"
     sha256 cellar: :any,                 arm64_ventura:  "a214cc7f0dd2e3af1a6229f4517055f7ffe813fa127983d23c1f1a0fac21e39c"
     sha256 cellar: :any,                 arm64_monterey: "ffd9940079de05b9bbef561e8a49011a85e83a2093ccb8c5bd81e3092dc6b1e6"
